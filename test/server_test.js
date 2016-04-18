@@ -39,7 +39,10 @@ describe('testing routes', () => {
         res.write('DELETE method hit on /sloth');
         res.end();
       });
-      app.server(6265);
+      app.start(6265);
+  });
+  after(() => {
+    app.close();
   });
   it('Successfully handle GET request', (done) => {
     request('localhost:6265')
