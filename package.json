@@ -1,6 +1,6 @@
 {
   "name": "slothbear_http",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "",
   "main": "index.js",
   "directories": {
@@ -14,7 +14,21 @@
     "url": "git+https://github.com/bharding2/slothbear_http.git"
   },
   "keywords": [],
-  "author": "",
+  "author": {
+    "name": "Benjamin Harding",
+    "email": "b.harding@gmail.com"
+  },
+  "contributors": [
+    {
+      "name": "Phillip Nguyen"
+    },
+    {
+      "name": "Greg Magdsick"
+    },
+    {
+      "name": "Benjamin Harding"
+    }
+  ],
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/bharding2/slothbear_http/issues"
