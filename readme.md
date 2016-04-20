@@ -65,7 +65,7 @@ Adds a ```POST``` route that handles requests with the passed-in callback. Retur
 ```
 slothbear.router.post('/index', (req, res) => {
   req.on('data', (data) => {
-    res.writeHead(200, { 'Content-Type': 'application.json' });
+    res.writeHead(200, { 'Content-Type': 'application/json' });
     res.write(data);
     res.end();
   });
